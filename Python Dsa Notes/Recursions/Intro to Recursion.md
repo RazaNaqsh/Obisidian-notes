@@ -50,3 +50,11 @@ def recursionMethod(params):
 ## Recursion vs Iterative Solutions
 
 ![[Pasted image 20240716142200.png]]
+
+
+### When to Use/Avoid Recursions?
+
+When to Use?
+- When we can easily breakdown a problem into similar subproblem
+- comes with extra time and space, use it when you are fine with it
+- When you need a quick working solution instead of an efficient one

@@ -14,12 +14,14 @@
 The above is better, lower ones are worse.
 
 
+
+
 ## Questions
 
 **Tell the complexity**
 
 
-1:
+Problem 1:
 ```
 L = [1,2,3,4,5]
 sum = 0 

@@ -41,7 +41,7 @@ def about():
 
     return render_template('about.html')
 ```
-
+Youll have to create a template folder and place the html files there for the flask to detect it
 
 then set the file to be run
 ```
@@ -54,3 +54,13 @@ Then to run the flask server
 flask run --debug
 ```
 
+
+
+And for the CSS and js script file to load and run
+create a static folder, move both files there
+change the location inside index.html
+
+```
+    <link rel="stylesheet" href="static/style.css" />
+  <script src="static/script.js"></script>
+```
